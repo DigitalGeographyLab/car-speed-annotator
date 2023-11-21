@@ -1,4 +1,4 @@
-# Annotate an OSM protobuf extract with realistic car speeds
+# Realistic car speeds for the Helsinki metropolitan region
 
 This is a Python package to ‘bake in’ car speeds into the edges of an
 OpenStreetMap dump, according to data looked up from a floating car data set,
