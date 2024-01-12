@@ -11,6 +11,13 @@ metropolitan
 area](https://github.com/DigitalGeographyLab/Helsinki-Travel-Time-Matrices).
 
 
+## Installation
+
+```
+pip install git+https://github.com/DigitalGeographyLab/car-speed-annotator.git
+```
+
+
 ## Use
 
 Instantiate a `CarSpeedAnnotator()` using one of `rush-hour`, `midday` or `nighttime` to account for the different driving speeds at different congestion levels. Then, call its `annotate()` method with an input and an output file (both either `pathlib.Path`s or `str`).
